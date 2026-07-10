@@ -88,8 +88,14 @@ Optimized for:
 
 ---
 
-## 👨‍💻 Author
+👨‍💼 **Author:** Praveen Kumar B (Full Stack Developer)
 
-**Praveen Kumar B**  
-Full Stack Developer  
-*TAP Academy Frontend Assignment*
+🌐 **Portfolio:** [Praveen Kumar B](https://praveen-kumar-b.web.app/)
+
+💻 **GitHub:** [Praveen Kumar B](https://github.com/praveenkumar-king)
+
+💼 **LinkedIn:** [Praveen Kumar B](https://www.linkedin.com/in/praveenkumarbofficial/)
+
+---
+
+# 📚 TAP Academy Frontend Assignment
