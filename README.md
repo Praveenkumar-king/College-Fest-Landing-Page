@@ -91,5 +91,5 @@ Optimized for:
 ## 👨‍💻 Author
 
 **Praveen Kumar B**  
-Frontend Developer  
+Full Stack Developer  
 *TAP Academy Frontend Assignment*
