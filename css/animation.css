@@ -1,0 +1,135 @@
+/* Keyframe Animations - Vortex College Fest */
+
+/* Scroll reveals */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-35px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(35px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes scaleIn {
+    from {
+        opacity: 0;
+        transform: scale(0.96);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Loop & Status Animations */
+@keyframes neonPulseBlue {
+    0%, 100% {
+        box-shadow: 0 0 12px rgba(0, 114, 255, 0.3), 0 0 4px rgba(0, 114, 255, 0.15);
+        text-shadow: 0 0 6px rgba(0, 114, 255, 0.2);
+    }
+    50% {
+        box-shadow: 0 0 20px rgba(0, 114, 255, 0.5), 0 0 8px rgba(255, 215, 0, 0.35);
+        text-shadow: 0 0 12px rgba(0, 114, 255, 0.4);
+    }
+}
+
+@keyframes neonPulseGold {
+    0%, 100% {
+        box-shadow: 0 0 12px rgba(255, 215, 0, 0.3);
+    }
+    50% {
+        box-shadow: 0 0 22px rgba(255, 215, 0, 0.5), 0 0 8px rgba(0, 114, 255, 0.3);
+    }
+}
+
+@keyframes floatLogo {
+    0%, 100% {
+        transform: translateY(0) rotate(0deg);
+    }
+    50% {
+        transform: translateY(-8px) rotate(1deg);
+    }
+}
+
+@keyframes pulseTimelineDot {
+    0% {
+        transform: scale(0.8);
+        box-shadow: 0 0 0 0 rgba(0, 114, 255, 0.7);
+    }
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 10px rgba(0, 114, 255, 0);
+    }
+    100% {
+        transform: scale(0.8);
+        box-shadow: 0 0 0 0 rgba(0, 114, 255, 0);
+    }
+}
+
+/* Reveal Observers styling */
+.reveal {
+    opacity: 0;
+    transition: opacity 0.8s ease-out, transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.reveal-active {
+    opacity: 1 !important;
+}
+
+.reveal-up {
+    transform: translateY(30px);
+}
+.reveal-up.reveal-active {
+    transform: translateY(0);
+}
+
+.reveal-left {
+    transform: translateX(-35px);
+}
+.reveal-left.reveal-active {
+    transform: translateX(0);
+}
+
+.reveal-right {
+    transform: translateX(35px);
+}
+.reveal-right.reveal-active {
+    transform: translateX(0);
+}
+
+.reveal-scale {
+    transform: scale(0.96);
+}
+.reveal-scale.reveal-active {
+    transform: scale(1);
+}
+
+.delay-100 { transition-delay: 0.1s; }
+.delay-200 { transition-delay: 0.2s; }
+.delay-300 { transition-delay: 0.3s; }
+.delay-400 { transition-delay: 0.4s; }
+.delay-500 { transition-delay: 0.5s; }
